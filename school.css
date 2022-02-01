@@ -1,196 +1,193 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,300;1,400;1,600&display=swap');
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,300;1,400;1,600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-.top-header{
-    display: flex;
-    justify-content: space-between; 
-    height: 90px;  
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
 }
-.logo{
-    align-self: center;
+.logo {
+  align-self: center;
 }
-.info{
-    display: flex;
-    justify-content: inherit;
-    width: 550px;
-    align-self: center;
-}
-
-.info-item span, .info-item h6{
-    justify-content: center;
-    display: flex;
-    font-size: 14px;
+.info {
+  display: flex;
+  justify-content: inherit;
+  width: 550px;
+  align-self: center;
 }
 
-.info-item h6{
-    margin: 0px;
+.info-item span,
+.info-item h6 {
+  justify-content: center;
+  display: flex;
+  font-size: 14px;
 }
 
-.info-item span i{
-    color: #7B3F00;
+.info-item h6 {
+  margin: 0px;
 }
 
-.main-header{
-    display: flex;
-    justify-content: space-between;  
-    background-color: #7B3F00; 
-    color: #fff;
+.info-item span i {
+  color: #7b3f00;
 }
 
-.link-items{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 450px;
-    padding: 0;
-    font-size: 14px;
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7b3f00;
+  color: #fff;
 }
 
-.social{
-    align-self: center;
+.link-items {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 450px;
+  padding: 0;
+  font-size: 14px;
 }
 
-.social span{
-    padding-left: 20px;
+.social {
+  align-self: center;
 }
 
-.container{
-    padding-left: 196px;
-    padding-right: 196px;
+.social span {
+  padding-left: 20px;
+}
+
+.container {
+  padding-left: 196px;
+  padding-right: 196px;
 }
 
 .swiper {
-    width: 100%;
-    height: 450px;
-  }
-
-.opac{
-    position: absolute;
-    z-index: 1;
-    right: -1350px;
-    width: 100%;
+  width: 100%;
+  height: 450px;
 }
 
-.slide-image{
-    position: absolute;
+.opac {
+  position: absolute;
+  z-index: 1;
+  right: -1350px;
+  width: 100%;
 }
 
-.texts{
-    text-align: center;
-    position: absolute;
-    margin-top: 80px;
-    z-index: 1;
-    color: #fff;
-    padding-left: 250px;
-    padding-right: 250px;
+.slide-image {
+  position: absolute;
 }
 
-.texts h4{
-    font-size: 30px;
-    font-weight: 500px;
+.texts {
+  text-align: center;
+  position: absolute;
+  margin-top: 80px;
+  z-index: 1;
+  color: #fff;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
-
-.texts p{
-    font-size: 20px;
+.texts h4 {
+  font-size: 30px;
+  font-weight: 500px;
 }
 
-
-.texts button{
-    font-size: 20px;
-    padding: 20px 40px;
-    background: #7B3F00;
-    color: #fff;
-    border: none;
+.texts p {
+  font-size: 20px;
 }
-#general{
-    display: flex;
+
+.texts button {
+  font-size: 20px;
+  padding: 20px 40px;
+  background: #7b3f00;
+  color: #fff;
+  border: none;
 }
-.nursery{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 35px 40px;
 
-position: static;
-width: 328px;
-height: 338px;
-left: 0px;
-top: 0px;
-
-background: #FFFFFF;
-
-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px 0px;
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: #c4c4c4;
+  opacity: inherit;
+  width: 12px;
+  height: 12px;
 }
-.primary{
-  
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 35px 40px;
-
-position: static;
-width: 328px;
-height: 338px;
-left: 0px;
-top: 0px;
-
-background: #FFFFFF;
-
-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px 0px;
-
+.swiper-pagination-horizontal .swiper-pagination-bullet-active {
+  background-color: #7b3f00;
 }
-.secondary{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 35px 40px;
-position: static;
-width: 329px;
-height: 338px;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px 0px;
-}
-.schoolboy{
-    width: 723.9px;
-    height: 508px;
-    left: 569.12px;
-    top: 0px;
-    padding-left: 800px;
-}
-.sector{
-    position: static;
-width: 1440px;
-height: 744px;
-left: 0px;
-top: 826px;
 
-background: linear-gradient(180deg, #B0916E 0%, rgba(176, 145, 110, 0) 100%);
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  width: 50px !important;
+  height: 50px !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #fafafa;
+}
+.sch {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1300px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.welcome {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.nursery {
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  position: static;
+  width: 328px;
+  height: 338px;
+  left: 0px;
+  top: 0px;
+}
+.primary {
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  position: static;
+  width: 328px;
+  height: 338px;
+  left: 0px;
+  top: 0px;
+}
+.secondary {
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  position: static;
+  width: 328px;
+  height: 338px;
+  left: 0px;
+  top: 0px;
+}
+.section2 {
+  background: linear-gradient(180deg, #b0916e 0%, rgba(176, 145, 110, 0) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+.section2 div:first-child p{
+    max-width: 85%;
+}
+.textss {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  padding-top: 300px;
+  padding-right: 600px;
+}
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 0px;
+.imgboy {
+  width: 723.9px;
+  height: 508px;
+  left: 569.12px;
+  top: 0px;
 }
